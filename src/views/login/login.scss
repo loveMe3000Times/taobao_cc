@@ -1,0 +1,82 @@
+.login {
+    padding: 0 0.53rem;
+    .header {
+        justify-content: center;
+        align-items: center;
+        padding: 0.21rem 0;
+        .logo {
+            margin-top: 1.07rem;
+            height: 2.13rem;
+            width: 2.13rem;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .body {
+        .am-list-line {
+            height: auto;
+            margin-top: 1.07rem;
+            padding-left: 0.1rem;
+            border-bottom: 1px solid #ff5000 !important;
+            input {
+                padding-left: 0.13rem;
+                font-size: 0.43rem;
+                color: #333;
+                height: 0.8rem;
+            }
+            .am-input-extra {
+                font-size: 0.53rem;
+            }
+            .am-input-label {
+                width: 1rem;
+                select {
+                    padding-right: 0.3rem;
+                    background-image: url("../../assets/images/icon-select.png");
+                    background-repeat: no-repeat;
+                    background-size: 0.2rem auto;
+                    background-position: right 50%;
+                    font-size: 0.37rem;
+                }
+            }
+        }
+        .am-list-item.am-input-item {
+            height: auto;
+            padding: 0;
+            .iconfont {
+                font-size: 0.53rem;
+            }
+            &.pcode .getCode {
+                font-size: 0.43rem;
+                color: #ff5000;
+            }
+        }
+        .login-fun {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0.53rem;
+            margin-bottom: 0.21rem;
+            div {
+                color: #555;
+                font-size: 0.37rem;
+            }
+        }
+    }
+    .btn-login {
+        margin-top: 0.93rem;
+        background: linear-gradient(to right, #ff9000, #ff5000) no-repeat;
+        color: #fff;
+        font-size: 0.43rem;
+        height: 1.2rem;
+        line-height: 1.2rem;
+        border-radius: 0.93rem;
+    }
+    .btn-login2 {
+        margin-top: 0.7rem;
+        color: #ff5000;
+        background: #fff;
+        border: 1Px solid #ff5000 !important;
+    }
+    
+}

@@ -1,0 +1,1 @@
+export const USER_UPDATE = "USER_UPDATE"; // 修改用户信息

@@ -1,0 +1,62 @@
+.register-infor{
+    .am-navbar-light{
+        color: #000;
+        font-size: 0.48rem;
+    }
+    
+    .body{
+        padding: 0.7rem 0.4rem 0;
+        .am-list-line {
+            height: auto;
+            margin-top: 1.07rem;
+            padding-left: 0.1rem;
+            border-bottom: 1px solid #ff5000 !important;
+            input {
+                padding-left: 0.13rem;
+                font-size: 0.43rem;
+                color: #333;
+                height: 0.8rem;
+            }
+            .am-input-extra {
+                font-size: 0.53rem;
+            }
+            .am-input-label {
+                width: 1rem;
+                select {
+                    padding-right: 0.3rem;
+                    background-image: url("../../assets/images/icon-select.png");
+                    background-repeat: no-repeat;
+                    background-size: 0.2rem auto;
+                    background-position: right 50%;
+                    font-size: 0.37rem;
+                }
+            }
+        }
+        .am-list-item.am-input-item {
+            height: auto;
+            padding: 0;
+            .iconfont {
+                font-size: 0.53rem;
+            }
+            &.pcode .getCode {
+                font-size: 0.43rem;
+                color: #ff5000;
+            }
+        }
+        .ps{
+            padding-left: 0.3rem;
+            margin-top: 0.2rem;
+            font-size: 0.32rem;
+            color: #ccc;
+        }
+        .btn-login {
+            margin-top: 1.93rem;
+            background: linear-gradient(to right, #ff9000, #ff5000) no-repeat;
+            color: #fff;
+            font-size: 0.43rem;
+            height: 1.2rem;
+            line-height: 1.2rem;
+            border-radius: 0.93rem;
+        }
+    }
+}

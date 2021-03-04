@@ -1,0 +1,56 @@
+.register {
+    padding: 1px 0.72rem;
+    .head {
+        margin-top: 1.73rem;
+        margin-bottom: 1.33rem;
+        .title {
+            color: #333;
+            font-size: 0.8rem;
+        }
+        .descr {
+            color: #999;
+            font-size: 0.43rem;
+            margin-top: 0.32rem;
+        }
+    }
+    .body {
+        .am-list-item.am-input-item {
+            margin-top: 0.32rem;
+            padding: 0;
+            height: 1.4rem;
+            .am-list-line {
+                padding: 0 0.4rem;
+                border-bottom: 1px solid #ccc;
+            }
+            .getCode {
+                font-size: 0.43rem;
+                color: #ff5000;
+            }
+            input{
+                font-size: 0.43rem;
+            }
+        }
+        .btn-login {
+            margin-top: 1.3rem;
+            background: linear-gradient(to right, #ff9000, #ff5000) no-repeat;
+            color: #fff;
+            font-size: 0.48rem;
+            height: 1.2rem;
+            line-height: 1.2rem;
+            border-radius: 0.93rem;
+        }
+        .agreements {
+            margin-top: 0.69rem;
+            line-height: 0.53rem;
+            font-size: 0.32rem;
+            color: #999;
+            a {
+                color: #ff5000;
+                &:after {
+                    content: "、 ";
+                    display: inline;
+                }
+            }
+        }
+    }
+}

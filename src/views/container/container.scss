@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    .container-main {
+        flex: 1;
+        overflow-y: auto;
+        overflow-x: hidden;
+        background-color: #eee;
+        padding-bottom: .13rem;
+    }
+
+    // 底部导航栏
+    .am-tab-bar-bar {
+        height: 1.15rem;
+        .am-tab-bar-tab-title{
+            font-size: .32rem;
+        }
+    }
+    .am-tab-bar {
+        height: 1.2rem;
+        font-size: 0.22rem;
+        .iconfont {
+            font-size: 0.59rem;
+        }
+    }
+}
